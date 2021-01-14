@@ -13,15 +13,7 @@
         });
         */
 
-        // Add a reference to an html element by its id
-        let clickMeButton = document.getElementById("clickMeButton");
-
-        // Create an Event listener for the reference
-        //-Will look for a click event, will print a log to console on click.
-        clickMeButton.addEventListener("click", ()=>
-        {
-            console.log("Click Me Button Was Clicked!");
-        });
+        document.getElementById("clickMeButton");
     }
 
     window.addEventListener("load", Start);
